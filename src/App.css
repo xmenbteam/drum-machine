@@ -18,7 +18,7 @@
 }
 
 .selectorButton {
-  margin-bottom: 5vmin;
+  margin-bottom: 1vmin;
   margin-left: 1vmin;
   margin-right: 1vmin;
   padding: 3vmin;
@@ -41,4 +41,68 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 1.5vmin;
+}
+
+.sequencer {
+  display: flex;
+  flex-direction: row;
+}
+
+.seqInst {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.instPad {
+  height: 6vmin;
+  width: 15vmin;
+  margin-top: 2vmin;
+}
+.instPad:hover {
+  opacity: 80%;
+}
+
+.singleBeat {
+  display: flex;
+  flex-direction: row;
+}
+
+.beatColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1.5vmin;
+}
+
+.beatButton {
+  height: 6vmin;
+  width: 6vmin;
+  margin-top: 2vmin;
+}
+
+.beatButtonEven {
+  height: 6vmin;
+  width: 6vmin;
+  margin-top: 2vmin;
+  background-color: grey;
+}
+
+.seqBox {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2vmin;
+}
+
+.semis {
+  display: flex;
+}
+
+.semi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vmin;
+  margin-left: 1vmin;
 }
